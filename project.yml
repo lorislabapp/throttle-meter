@@ -1,0 +1,77 @@
+name: ThrottleMeter
+options:
+  bundleIdPrefix: com.lorislab
+  deploymentTarget:
+    macOS: "14.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+  knownRegions:
+    - en
+    - fr
+    - Base
+
+settings:
+  base:
+    DEVELOPMENT_TEAM: TDV6D5L785
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    CODE_SIGN_STYLE: Automatic
+    GENERATE_INFOPLIST_FILE: YES
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+  configs:
+    Release:
+      ENABLE_HARDENED_RUNTIME: YES
+
+packages:
+  GRDB:
+    url: https://github.com/groue/GRDB.swift
+    from: "6.29.0"
+
+targets:
+  Throttle:
+    type: application
+    platform: macOS
+    sources:
+      - path: Throttle
+    resources:
+      - path: Throttle/Resources
+    info:
+      path: Throttle/Info.plist
+      properties:
+        LSUIElement: YES
+        LSApplicationCategoryType: public.app-category.developer-tools
+        NSHumanReadableCopyright: "Copyright © 2026 LorisLabs. MIT License."
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleName: Throttle Meter
+        CFBundleDisplayName: Throttle Meter
+        NSCalendarsFullAccessUsageDescription: "Throttle Meter adds a one-time reminder to your default calendar when your weekly Claude limit is about to reset. Optional — only when you tap the Calendar button."
+        NSCalendarsUsageDescription: "Throttle Meter adds a one-time reminder to your default calendar when your weekly Claude limit is about to reset. Optional — only when you tap the Calendar button."
+        NSUserNotificationsUsageDescription: "Throttle Meter banners you when your Claude usage crosses 80% or 95%."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.lorislab.throttle.meter
+        PRODUCT_NAME: "Throttle Meter"
+        CODE_SIGN_ENTITLEMENTS: Throttle/Throttle.entitlements
+    dependencies:
+      - package: GRDB
+
+  ThrottleTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: ThrottleTests
+    resources:
+      - path: ThrottleTests/Fixtures
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.lorislab.throttle.meter.tests
+        BUNDLE_LOADER: $(TEST_HOST)
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Throttle Meter.app/Contents/MacOS/Throttle Meter
+    dependencies:
+      - target: Throttle
+      - package: GRDB
