@@ -1,258 +1,853 @@
 {
-  "sourceLanguage" : "en",
-  "version" : "1.0",
-  "strings" : {
-    "Welcome to Throttle" : {
-      "comment" : "FirstRun wizard step 1 title",
-      "extractionState" : "manual",
-      "localizations" : {
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Bienvenue dans Throttle" } }
+  "sourceLanguage": "en",
+  "version": "1.0",
+  "strings": {
+    "Pick your plan": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisissez votre forfait"
+          }
+        }
       }
     },
-    "The accurate Claude Code meter for your menu bar." : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "L'indicateur précis de Claude Code dans votre barre des menus." } }
+    "Almost done": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Presque terminé"
+          }
+        }
       }
     },
-    "Pick your plan" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Choisissez votre forfait" } }
+    "Get Started": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer"
+          }
+        }
       }
     },
-    "Almost done" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Presque terminé" } }
+    "Next": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suivant"
+          }
+        }
       }
     },
-    "Get Started" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "fr" : { "stringUnit" : { "state" : "translated", "value" : "Commencer" } }
+    "Back": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retour"
+          }
+        }
       }
     },
-    "Next" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Suivant" } } }
+    "Step %lld of %lld": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Étape %lld sur %lld"
+          }
+        }
+      }
     },
-    "Back" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Retour" } } }
+    "Settings": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages"
+          }
+        }
+      }
     },
-    "Step %lld of %lld" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Étape %lld sur %lld" } } }
+    "Settings…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages…"
+          }
+        }
+      }
     },
-    "Settings" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Réglages" } } }
+    "Stats": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statistiques"
+          }
+        }
+      }
     },
-    "Settings…" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Réglages…" } } }
+    "Stats…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Statistiques…"
+          }
+        }
+      }
     },
-    "Stats" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Statistiques" } } }
+    "Open claude.ai/usage": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir claude.ai/usage"
+          }
+        }
+      }
     },
-    "Stats…" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Statistiques…" } } }
+    "Session (5h)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Session (5 h)"
+          }
+        }
+      }
     },
-    "About Throttle" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "À propos de Throttle" } } }
+    "Weekly all models": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebdomadaire (tous modèles)"
+          }
+        }
+      }
     },
-    "Quit Throttle" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Quitter Throttle" } } }
+    "Weekly Sonnet only": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebdomadaire (Sonnet uniquement)"
+          }
+        }
+      }
     },
-    "Open claude.ai/usage" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ouvrir claude.ai/usage" } } }
+    "% used": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " % utilisés"
+          }
+        }
+      }
     },
-    "Session (5h)" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Session (5 h)" } } }
+    "not calibrated": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "non étalonné"
+          }
+        }
+      }
     },
-    "Weekly all models" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Hebdomadaire (tous modèles)" } } }
+    "General": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Général"
+          }
+        }
+      }
     },
-    "Weekly Sonnet only" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Hebdomadaire (Sonnet uniquement)" } } }
+    "Calibration": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Étalonnage"
+          }
+        }
+      }
     },
-    "% used" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : " % utilisés" } } }
+    "Hooks": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hooks"
+          }
+        }
+      }
     },
-    "not calibrated" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "non étalonné" } } }
+    "Privacy": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confidentialité"
+          }
+        }
+      }
     },
-    "General" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Général" } } }
+    "Startup": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Démarrage"
+          }
+        }
+      }
     },
-    "Calibration" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Étalonnage" } } }
+    "Notifications": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notifications"
+          }
+        }
+      }
     },
-    "Hooks" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Hooks" } } }
+    "Notify when usage crosses 80%% / 95%%": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avertir au franchissement de 80 %% / 95 %%"
+          }
+        }
+      }
     },
-    "Privacy" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Confidentialité" } } }
+    "Updates": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mises à jour"
+          }
+        }
+      }
     },
-    "Startup" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Démarrage" } } }
+    "Usage trend": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Évolution de l'utilisation"
+          }
+        }
+      }
     },
-    "Launch Throttle at login" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Lancer Throttle à l'ouverture de session" } } }
+    "Model split": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Répartition par modèle"
+          }
+        }
+      }
     },
-    "Notifications" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Notifications" } } }
+    "Share your stats": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partager vos statistiques"
+          }
+        }
+      }
     },
-    "Notify when usage crosses 80%% / 95%%" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Avertir au franchissement de 80 %% / 95 %%" } } }
+    "Share badge": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Partager l'image"
+          }
+        }
+      }
     },
-    "Updates" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mises à jour" } } }
+    "Local logs": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Journaux locaux"
+          }
+        }
+      }
     },
-    "Check for updates…" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Rechercher des mises à jour…" } } }
+    "Reveal log file in Finder": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afficher le fichier de journal dans le Finder"
+          }
+        }
+      }
     },
-    "Throttle Pro" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Throttle Pro" } } }
+    "Diagnostics": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diagnostics"
+          }
+        }
+      }
     },
-    "Activated" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Activé" } } }
+    "Export diagnostics to Desktop": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exporter les diagnostics sur le Bureau"
+          }
+        }
+      }
     },
-    "Free" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Gratuit" } } }
+    "Telemetry": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Télémétrie"
+          }
+        }
+      }
     },
-    "Buy Throttle Pro" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Acheter Throttle Pro" } } }
+    "Add weekly reset reminder to Calendar": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajouter le rappel de réinitialisation hebdomadaire au Calendrier"
+          }
+        }
+      }
     },
-    "Paste license key" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Coller la clé de licence" } } }
+    "Triggers a banner on each window the first time it crosses each threshold (debounced 6h).": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Affiche une bannière sur chaque fenêtre au premier franchissement de chaque seuil (anti-rebond 6 h)."
+          }
+        }
+      }
     },
-    "Deactivate this Mac" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Désactiver sur ce Mac" } } }
+    "Pro": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pro"
+          }
+        }
+      }
     },
-    "Exact mode" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Mode exact" } } }
+    "tokens saved": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tokens économisés"
+          }
+        }
+      }
     },
-    "Enable exact mode" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Activer le mode exact" } } }
+    "This week — Throttle's hooks pruning irrelevant context": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette semaine — les hooks de Throttle élaguent le contexte non pertinent"
+          }
+        }
+      }
     },
-    "Open claude.ai in Safari" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ouvrir claude.ai dans Safari" } } }
+    "Logs include app behaviour only — no session content.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les journaux contiennent uniquement le comportement de l'app — aucun contenu de session."
+          }
+        }
+      }
     },
-    "Test connection" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Tester la connexion" } } }
+    "Bundle anonymized stats (event counts, hook status, last error) into a .zip on your Desktop. No usage content, no model details — token totals only. For support requests.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empaquète des stats anonymisées (compteurs d'événements, état des hooks, dernière erreur) dans un .zip sur votre bureau. Aucun contenu d'utilisation, aucun détail de modèle — uniquement des totaux de tokens. Pour les demandes de support."
+          }
+        }
+      }
     },
-    "Testing…" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Test en cours…" } } }
+    "Estimated API cost: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Coût API estimé : %@"
+          }
+        }
+      }
     },
-    "Refresh now" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Actualiser maintenant" } } }
+    "(What this would have cost on the developer API at Anthropic's published rates.)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "(Ce que cela aurait coûté sur l'API développeur aux tarifs publics d'Anthropic.)"
+          }
+        }
+      }
     },
-    "Sign out" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Se déconnecter" } } }
+    "No history yet — keep using Claude Code, the chart fills as you go.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pas encore d'historique — continuez à utiliser Claude Code, le graphique se remplit au fil du temps."
+          }
+        }
+      }
     },
-    "Usage trend" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Évolution de l'utilisation" } } }
+    "No model usage yet.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune utilisation de modèle pour l'instant."
+          }
+        }
+      }
     },
-    "Model split" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Répartition par modèle" } } }
+    "SessionStart router": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routeur SessionStart"
+          }
+        }
+      }
     },
-    "When you burn tokens" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Quand vous consommez des tokens" } } }
+    "PreCompact extractor": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Extracteur PreCompact"
+          }
+        }
+      }
     },
-    "Top projects by tokens" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Projets les plus consommateurs" } } }
+    "Recalibrate from claude.ai": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recalibrer depuis claude.ai"
+          }
+        }
+      }
     },
-    "Hooks saved you" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Économies grâce aux hooks" } } }
+    "Open claude.ai, read the % shown for each limit, enter it here, then Apply. Throttle adjusts each cap so the meter matches.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez claude.ai, lisez le pourcentage affiché pour chaque limite, saisissez-le ici, puis Appliquer. Throttle ajuste chaque cap pour que le mètre corresponde."
+          }
+        }
+      }
     },
-    "Share your stats" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Partager vos statistiques" } } }
+    "Apply": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Appliquer"
+          }
+        }
+      }
     },
-    "Share badge" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Partager l'image" } } }
+    "Reset all calibrations": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réinitialiser toutes les calibrations"
+          }
+        }
+      }
     },
-    "Local logs" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Journaux locaux" } } }
+    "Caps (tokens)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caps (tokens)"
+          }
+        }
+      }
     },
-    "Reveal log file in Finder" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Afficher le fichier de journal dans le Finder" } } }
+    "Active": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actif"
+          }
+        }
+      }
     },
-    "Diagnostics" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Diagnostics" } } }
+    "Not installed": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non installé"
+          }
+        }
+      }
     },
-    "Export diagnostics to Desktop" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Exporter les diagnostics sur le Bureau" } } }
+    "Failed — see log.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Échec — voir le journal."
+          }
+        }
+      }
     },
-    "Telemetry" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Télémétrie" } } }
+    "Saved: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistré : %@"
+          }
+        }
+      }
     },
-    "Throttle does not collect telemetry. Future opt-ins will appear here." : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Throttle ne collecte aucune donnée de télémétrie. Les choix futurs apparaîtront ici." } } }
+    "Building…": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Construction en cours…"
+          }
+        }
+      }
     },
-    "Add weekly reset reminder to Calendar" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Ajouter le rappel de réinitialisation hebdomadaire au Calendrier" } } }
+    "Welcome to Throttle Meter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bienvenue dans Throttle Meter"
+          }
+        }
+      }
     },
-    "EXACT" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "EXACT" } } }
+    "✓ Event added to your default calendar.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✓ Événement ajouté à votre calendrier par défaut."
+          }
+        }
+      }
     },
-    "PRO" : {
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "PRO" } } }
+    "Calendar access denied — enable in System Settings.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accès au calendrier refusé — activez dans Réglages système."
+          }
+        }
+      }
     },
-    "Throttle" : {
-      "comment" : "App name — do not translate",
-      "extractionState" : "manual",
-      "localizations" : { "fr" : { "stringUnit" : { "state" : "translated", "value" : "Throttle" } } }
+    "No reset time available yet — keep using Claude Code.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aucune heure de réinitialisation disponible — continuez à utiliser Claude Code."
+          }
+        }
+      }
+    },
+    "Error: %@": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erreur : %@"
+          }
+        }
+      }
+    },
+    "%lld%% used": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld %% utilisés"
+          }
+        }
+      }
+    },
+    "resets in %@ (%@)": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "réinit. dans %@ (%@)"
+          }
+        }
+      }
+    },
+    "So we can pre-fill realistic caps. You can recalibrate exactly later.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour préremplir des limites réalistes. Vous pourrez recalibrer exactement plus tard."
+          }
+        }
+      }
+    },
+    "Throttle Meter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Throttle Meter"
+          }
+        }
+      }
+    },
+    "About Throttle Meter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À propos de Throttle Meter"
+          }
+        }
+      }
+    },
+    "Quit Throttle Meter": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quitter Throttle Meter"
+          }
+        }
+      }
+    },
+    "Launch Throttle Meter at login": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lancer Throttle Meter à l'ouverture de session"
+          }
+        }
+      }
+    },
+    "Throttle Meter does not collect telemetry.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Throttle Meter ne collecte pas de télémétrie."
+          }
+        }
+      }
+    },
+    "Throttle Meter reads `~/.claude/projects/` locally to compute your session-5h, weekly-all, and weekly-Sonnet usage. Nothing leaves your Mac.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Throttle Meter lit `~/.claude/projects/` localement pour calculer votre utilisation session 5 h, hebdomadaire totale et hebdomadaire Sonnet. Rien ne sort de votre Mac."
+          }
+        }
+      }
+    },
+    "Open claude.ai, read the % shown for each limit, enter it here, then Apply. Throttle Meter adjusts each cap so the meter matches.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrez claude.ai, lisez le pourcentage affiché pour chaque limite, saisissez-le ici, puis Appliquer. Throttle Meter ajuste chaque cap pour que le mètre corresponde."
+          }
+        }
+      }
+    },
+    "Updates ship via GitHub releases. Check github.com/lorislabapp/throttle-meter for new versions.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les mises à jour sont publiées via GitHub releases. Vérifiez github.com/lorislabapp/throttle-meter pour les nouvelles versions."
+          }
+        }
+      }
+    },
+    "MIT License — see LICENSE in the repo.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Licence MIT — voir LICENSE dans le repo."
+          }
+        }
+      }
+    },
+    "Built by LorisLabs.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conçu par LorisLabs."
+          }
+        }
+      }
+    },
+    "To install or update the hook scripts, see the README in the repo. To disable, run:": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pour installer ou mettre à jour les scripts de hooks, voir le README du repo. Pour désactiver, lancez :"
+          }
+        }
+      }
+    },
+    "Bundle anonymized stats (event counts, hook status) into a .zip on your Desktop. No usage content, no model details — token totals only.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empaquète des stats anonymisées (compteurs d'événements, état des hooks) dans un .zip sur votre bureau. Aucun contenu d'utilisation, aucun détail de modèle — uniquement des totaux de tokens."
+          }
+        }
+      }
+    },
+    "Everything is configurable later in Settings.": {
+      "extractionState": "manual",
+      "localizations": {
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout est configurable plus tard dans Réglages."
+          }
+        }
+      }
     }
   }
 }

@@ -146,9 +146,9 @@ struct DropdownView: View {
 
     private var windowsList: some View {
         VStack(alignment: .leading, spacing: 12) {
-            metricRow(window: appState.snapshot.session5h, title: "Session (5h)")
-            metricRow(window: appState.snapshot.weeklyAll, title: "Weekly all models")
-            metricRow(window: appState.snapshot.weeklySonnet, title: "Weekly Sonnet only")
+            metricRow(window: appState.snapshot.session5h, title: String(localized: "Session (5h)"))
+            metricRow(window: appState.snapshot.weeklyAll, title: String(localized: "Weekly all models"))
+            metricRow(window: appState.snapshot.weeklySonnet, title: String(localized: "Weekly Sonnet only"))
         }
     }
 
@@ -535,9 +535,9 @@ private struct InlineCalibrationPane: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text("Caps (tokens)").font(.subheadline.bold())
-            row(.session5h,    "Session (5h)")
-            row(.weeklyAll,    "Weekly all models")
-            row(.weeklySonnet, "Weekly Sonnet only")
+            row(.session5h,    String(localized: "Session (5h)"))
+            row(.weeklyAll,    String(localized: "Weekly all models"))
+            row(.weeklySonnet, String(localized: "Weekly Sonnet only"))
 
             Divider()
 
@@ -548,9 +548,9 @@ private struct InlineCalibrationPane: View {
                     .font(.caption).foregroundStyle(.secondary)
                     .fixedSize(horizontal: false, vertical: true)
             }
-            recalRow(.session5h,    "Session (5h)")
-            recalRow(.weeklyAll,    "Weekly all models")
-            recalRow(.weeklySonnet, "Weekly Sonnet only")
+            recalRow(.session5h,    String(localized: "Session (5h)"))
+            recalRow(.weeklyAll,    String(localized: "Weekly all models"))
+            recalRow(.weeklySonnet, String(localized: "Weekly Sonnet only"))
 
             Divider()
             Button("Reset all calibrations", role: .destructive) {
@@ -698,8 +698,8 @@ private struct InlineHooksPane: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            row("SessionStart router", ok: status.sessionStartRouterInstalled)
-            row("PreCompact extractor", ok: status.preCompactExtractorInstalled)
+            row(String(localized: "SessionStart router"), ok: status.sessionStartRouterInstalled)
+            row(String(localized: "PreCompact extractor"), ok: status.preCompactExtractorInstalled)
             if status.killSwitchSet {
                 Text("⚠ Kill switch active — CLAUDE_DISABLE_TOKOPT_HOOKS=1 set in your shell")
                     .font(.caption).foregroundStyle(.orange)
